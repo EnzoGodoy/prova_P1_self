@@ -7,7 +7,6 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 import pandas as pd
 import os
 
-# Definição dos caminhos (dentro do container)
 DATA_PATH = "/opt/airflow/data"
 ENTRADA = f"{DATA_PATH}/entrada.csv"
 TASK2 = f"{DATA_PATH}/task2.csv"
