@@ -1,0 +1,2 @@
+[2026-04-13T23:24:10.941+0000] {taskinstance.py:1946} INFO - Dependencies not met for <TaskInstance: streaming_pipeline.inserir_descartados manual__2026-04-13T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state.
+[2026-04-13T23:24:10.945+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
